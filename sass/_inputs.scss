@@ -1,0 +1,72 @@
+
+/*************************-----inputs----************************************/
+
+/* .formregistro .contenido-inputs input{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.103);
+}
+.formregistro .contenido-inputs label{
+color: #4d4848;
+} */
+.contenido-inputs {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido-inputs label {
+
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 4px;
+    color: rgb(184, 184, 184);
+
+}
+
+.contenido-inputs input {
+    width: 100%;
+    padding: 9px 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.048);
+    outline: none;
+}
+textarea,select {
+    width: 100%;
+    padding: 9px 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.048);
+    outline: none;
+
+}
+
+.btn-envio {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    background-color: #e61c5d;
+    color: #f7c9d7;
+    font-size: 12px;
+    font-weight: bold;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.267);
+    transition: .3s ease all;
+}
+
+.btn-envio:hover {
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.384);
+    cursor: pointer;
+    background-color: #ce1852;
+}
+
+
+::placeholder {
+    color: #c9c9c9;
+}
+
+

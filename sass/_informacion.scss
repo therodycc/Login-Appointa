@@ -1,0 +1,35 @@
+
+/*************************-----Contenido informacion----************************************/
+
+.informacion{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contenido-informacion{
+    width: 90%;
+    padding: 40px;
+    padding-bottom: 0;
+}
+
+.contenido-informacion h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #e61c5d;
+    margin-bottom: 10px;
+}
+.contenido-informacion p{
+    width: 50%;
+    font-size: 15px;
+    font-weight: bold;
+    color: #3a3a3a;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+.contenido-informacion p a{
+    width: 50%;
+    color: #e61c5d;
+    cursor: pointer;
+}
+

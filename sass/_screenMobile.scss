@@ -1,0 +1,61 @@
+
+/*************************-----Mobile----************************************/
+
+@media screen and (max-width: 900px) {
+
+
+    .formulario form {
+        width: 100%;
+    }
+
+    .contenido-cuerpo .formulario form {
+        width: 100%;
+        padding: 20px;
+        padding-top: 0;
+        margin-top: -20px;
+    }
+
+    .imgBackgroundlogin {
+        object-fit: cover;
+    }
+
+    .contenido-inputs {
+        margin-top: 20px;
+    }
+
+    .contenido-inputs input {
+        padding: 13px 10px;
+    }
+
+    .img-form img {
+        width: 60px;
+        height: 60px;
+        margin-top: 20px;
+    }
+    .informacion{
+        margin-top: -20px;
+    }
+    .informacion h3{
+      font-size: 17px;
+    }
+    .informacion p{
+        display: none;
+    }
+
+    .Cabecera-login{
+        flex-direction: column;
+    }
+    .Nocolum{
+        flex-direction: row;
+    }
+
+    .contenido-menu .a-r{
+        display: none;
+    }
+    .contenido-enlace p {
+        display: block;
+    }
+    .contenido-enlace p .registrate {
+        display: block;
+    }
+}

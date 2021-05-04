@@ -1,0 +1,56 @@
+
+/*************************-----Table----************************************/
+
+@media screen and (max-width: 1100px) {
+
+    .cuerpo {
+        height: auto;
+        /* padding-top: 20px; */
+    }
+
+    .contenido-cuerpo {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .contenido-cuerpo .ImgLogin {
+        display: none;
+
+    }
+
+    .contenido-cuerpo .formulario {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenido-cuerpo .formulario form {
+        width: 50%;
+    }   
+    .img-form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-form img {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 5px;
+    }
+
+    .wave {
+        display: block;
+    }
+
+    .contenido-informacion p{
+        width: 100%;
+    }
+    .img-form .LogoImgRegistro {
+        display: none;
+    }
+}

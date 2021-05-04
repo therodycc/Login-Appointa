@@ -1,0 +1,45 @@
+/*************************-----header----************************************/
+
+.Cabecera-login {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    
+}
+
+.logo {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.logo img {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    /* border-radius: 50%; */
+    margin-right: 15px;
+    object-fit: contain;
+    /* border: 3px solid #e61c5d;
+    box-shadow: 0 0 10px 0 #e61c5d; */
+}
+
+.logo h1 {
+    font-size: 20px;
+}
+
+
+.contenido-menu a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #e61c5d;
+    font-weight: bold;
+    padding: 9px;
+    border-radius: 20px;
+}
