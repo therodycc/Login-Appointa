@@ -1,3 +1,5 @@
+@import "variables";
+/*************************-----manejo de pasos----************************************/
 .Contenido-manejo-pasos{
     width: 90%;
 }
@@ -32,6 +34,6 @@
 }
 
 .vcv-step-current{
-    color: #e61c5d;
+    color: $Principal_color;
     text-shadow: 0 0 10px  #e61c5c62;
 }

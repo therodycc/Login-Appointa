@@ -1,8 +1,11 @@
-
+@import "variables";
 /*************************-----Mobile----************************************/
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
 
+    .log{
+        margin-top: 60px;
+    }
 
     .formulario form {
         width: 100%;

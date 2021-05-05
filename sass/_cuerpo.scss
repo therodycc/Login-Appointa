@@ -1,0 +1,129 @@
+@import "variables";
+/*************************-----cuerpo----************************************/
+.cuerpo {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.contenido-cuerpo {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.contenido-cuerpo .formulario {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-right: 50px;
+}
+
+.formulario form {
+    width: 500px;
+    height: auto;
+    padding: 40px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.151);
+    border-radius: 40px;
+    z-index: 1;
+}
+
+.formulario form .contenido-enlace {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.contenido-enlace > a {
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contenido-enlace  .registrate {
+    display: none;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: $Principal_color;
+}
+.contenido-enlace  p {
+    display: none;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: #333333;
+}
+
+.img-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.img-form img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    /* border-radius: 50%; */
+    /* border: 3px solid #e61c5d; */
+}
+
+.img-form .LogoImgRegistro {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    margin-right: 5px;
+    object-fit: cover;
+    margin-top:-120px ;
+    opacity: 20%;
+}
+
+.img-form h2 {
+    font-size: 20px;
+}
+
+
+.contenido-cuerpo .ImgLogin {
+    width: 40%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ImgLogin img {
+    width: 450px;
+    height: auto;
+    background: transparent;
+}
+
+.regis{
+    margin-bottom: 30px;
+}
+
+.selecciona-logotipo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.selecciona-logotipo img{
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+}

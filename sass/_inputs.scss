@@ -1,4 +1,4 @@
-
+@import "variables";
 /*************************-----inputs----************************************/
 
 /* .formregistro .contenido-inputs input{
@@ -50,7 +50,7 @@ textarea,select {
     border-radius: 50px;
     outline: none;
     border: none;
-    background-color: #e61c5d;
+    background-color: $Principal_color;
     color: #f7c9d7;
     font-size: 12px;
     font-weight: bold;
@@ -61,12 +61,14 @@ textarea,select {
 .btn-envio:hover {
     box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.384);
     cursor: pointer;
-    background-color: #ce1852;
+    background-color: $Principal_color;
 }
 
 
 ::placeholder {
     color: #c9c9c9;
 }
+
+
 
 

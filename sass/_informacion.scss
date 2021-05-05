@@ -1,4 +1,4 @@
-
+@import "variables";
 /*************************-----Contenido informacion----************************************/
 
 .informacion{
@@ -16,7 +16,7 @@
 .contenido-informacion h3{
     font-size: 20px;
     font-weight: bold;
-    color: #e61c5d;
+    color: $Principal_color;
     margin-bottom: 10px;
 }
 .contenido-informacion p{
@@ -29,7 +29,8 @@
 }
 .contenido-informacion p a{
     width: 50%;
-    color: #e61c5d;
+    color: $Principal_color;
     cursor: pointer;
 }
+
 

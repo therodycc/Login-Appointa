@@ -1,3 +1,4 @@
+@import "variables";
 /*************************-----header----************************************/
 
 .Cabecera-login {
@@ -38,8 +39,10 @@
 .contenido-menu a {
     text-decoration: none;
     font-size: 16px;
-    color: #e61c5d;
+    color: $Principal_color;
     font-weight: bold;
     padding: 9px;
     border-radius: 20px;
 }
+
+
